@@ -1,8 +1,8 @@
 @charset "UTF-8"
 *{
-    margin: 0px;
-    padding: 0px;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html,body{
     height:100vh;
@@ -44,14 +44,12 @@ iframe#tela{
 #redes-sociais img{ 
     width: 50px;
     margin: 10px;
-    box-shadow: 2px 2px 5px solid rgba(0, 0, 0, 0.452);
+    box-shadow: 2px 2px 5px solid rgba(255, 255, 255, 0.452);
     border-radius: 50%;
-    box-sizing: border-box;
 }
 #redes-sociais img:hover{ 
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 0.456);
-    box-shadow: 5px 5px 10px solid rgba(0, 0, 0, 0.452);
+    box-shadow: 2px 2px 5px solid rgba(255, 255, 255, 0.452);
     transform: translate(-3px,-3px);
-    transition: transform 0.9s, border 1s ;
 }
