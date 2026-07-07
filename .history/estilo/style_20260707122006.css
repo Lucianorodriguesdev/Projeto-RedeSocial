@@ -47,8 +47,7 @@ iframe#tela{
     box-shadow: 2px 2px 5px solid rgba(0, 0, 0, 0.452);
     border-radius: 50%;
     box-sizing: border-box;
-    outline: none;
-    accent-color: none;
+    
 }
 #redes-sociais img:hover{ 
     cursor: pointer;
