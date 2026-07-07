@@ -51,12 +51,6 @@ iframe#tela{
     accent-color: none;
     text-decoration: none;
 }
-#redes-sociais a{
-    outline: none;
-    accent-color: none;
-    border:none;
-text-decoration: none;
-}
 #redes-sociais img:hover{ 
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 0.568);
